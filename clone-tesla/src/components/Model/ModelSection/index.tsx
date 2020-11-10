@@ -24,7 +24,7 @@ const ModelSection: React.FC<Props> = ({
       registerModel({modelName, overlayNode, sectionRef
       })
     }
-  }, [])
+  }, [modelName, overlayNode, registerModel])
 
 
   return (
